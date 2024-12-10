@@ -7,9 +7,9 @@ import {
   NgStyle,
   UpperCasePipe,
 } from "@angular/common";
-import { FaceSnapsService } from "../core/services/face-snaps.services";
+import { FaceSnapsService } from "../../../core/services/face-snaps.services";
 import { ActivatedRoute, RouterLink } from "@angular/router";
-import { FaceSnap } from "../core/models/face-snap";
+import { FaceSnap } from "../../../core/models/face-snap";
 import { Observable, tap } from "rxjs";
 
 @Component({
